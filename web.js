@@ -1,1 +1,0 @@
-console.log('Script carregado com ID do PHP: adasd');
