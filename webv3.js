@@ -181,6 +181,15 @@ function getUrlParams(url) {
   } catch { }
   return params;
 }
+  function getUrlFromElement(element) {
+    if (element.tagName === "A") return element.href;
+    const onclick =
+      element.onclick?.toString() || element.getAttribute("onclick");
+    return (
+      onclick?.match(/window.location.hrefs*=s*['"]([^'"]+)['"]/)?.[1] ||
+      onclick?.match(/['"](https?:\/\/[^'"]+)['"]/)?.[1]
+    );
+  }
 
 function verifygclid() {
   const url = new URL(window.location.href);
