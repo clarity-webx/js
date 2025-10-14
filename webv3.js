@@ -418,7 +418,9 @@ const endpoint = "https://api.clarityweb.ct.ws/webhook/event";
     }
 
 
-    function _init(){
+    function _init(config){
+        configData = config
+
         if(configData.scr)
            _initScrool();
 
@@ -451,7 +453,7 @@ const endpoint = "https://api.clarityweb.ct.ws/webhook/event";
     init(cfg) {
       if (this._inited) return;
       this._config = cfg || {};
-      _init();
+      _init(cfg);
       this._inited = true;
       // outras inicializações...
       console.log('Tracker initialized', this._config);
