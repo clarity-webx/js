@@ -393,11 +393,7 @@ const endpoint = "https://api.clarityweb.ct.ws/webhook/event";
 
     function _rmCF(){
         window.removeAllListeners("click","clickfast");
-        document.addEventListener('click', (e) => {
-            setTimeout(() => {
-                cf_click(e); // função global ou importada
-            }, 0);
-            });
+        document.addEventListener('click', cf_click,true);
 
     }
 
