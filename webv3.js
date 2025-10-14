@@ -335,7 +335,7 @@ const endpoint = "https://api.clarityweb.ct.ws/webhook/event";
 
  
 
- const configData = {
+ let configData = {
      url: null,
      trk: false,
      rdt: false,
