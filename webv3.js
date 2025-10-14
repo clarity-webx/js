@@ -281,22 +281,7 @@ async function cf_click  (e) {
       const url = getUrlFromElement(element);
       if (!url || !isExternalUrl(url)) return;
       e.preventDefault();
-      try {
-        trackingData.outboundClicks.push({
-          elementType: element.tagName.toLowerCase(),
-          url: normalizeUrl(url),
-          params: getUrlParams(url),
-          timestamp: new Date().toISOString(),
-          timeOnPage: Math.round((Date.now() - pageStartTime) / 1000),
-        });
-        await Promise.race([
-          sendTrackingData("outbound"),
-          new Promise((resolve) => setTimeout(resolve, REQUEST_TIMEOUT)),
-        ]);
-      } catch (error) {
-        debugLog("Tracking error:", error);
-      }
-      _a = getwURL(url)
+       _a = getwURL(url)
       window.location.href = _a;
     }
 
