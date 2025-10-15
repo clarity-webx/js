@@ -245,7 +245,7 @@
       _a = getwURL(url)
       window.location.href = _a;
     } catch (error) {
-      window.location.href = url;
+      return;
     }
   }
 
