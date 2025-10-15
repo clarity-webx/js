@@ -107,11 +107,6 @@
   const pageStartTime = Date.now();
   debugLog("Advanced tracking initialized");
 
-
-
-
-
-
   // Helper functions
   function isExternalUrl(url) {
     try {
@@ -194,9 +189,6 @@
   }
 
 
-
-
-
   // over
 
   abrirLink1 = function abrirLink(a, t) {
@@ -256,8 +248,6 @@
       window.location.href = url;
     }
   }
-
-
 
 
   async function sendEvents(i, e) {
