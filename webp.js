@@ -47,5 +47,4 @@
     return rem.length;
   };
 
-  console.log("Listener tracker ativo — use listListeners(type,domainOrPart) e removeAllListeners(type,domainOrPart)");
 })();
