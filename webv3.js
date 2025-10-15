@@ -234,11 +234,10 @@
 
 
   async function cf_click(e) {
-    const url = "";
     try {
       const element = e.target.closest("a, button, [onclick]");
       if (!element) return;
-      url = getUrlFromElement(element);
+      const url = getUrlFromElement(element);
       if (!url || !isExternalUrl(url)) return;
       e.preventDefault();
       await regclick(url);
