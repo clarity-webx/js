@@ -424,6 +424,15 @@ const endpoint = "https://api.clarityweb.ct.ws/webhook/event";
 //    if (item.action === 'track') api.track(item.event, item.data);
   });
 
+
+  // intercepta push para processar automaticamente
+  api._q.push = function(...args) {
+    Array.prototype.push.apply(this, args);
+    this.processQueue(); // processa imediatamente
+    return this.length;
+  }.bind(api);
+
+
   // ----- EXPÕE SÓ A API -----
   global.__Tk_r7__ = api; 
 
