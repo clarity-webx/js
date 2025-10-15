@@ -50,6 +50,23 @@
   console.log("Listener tracker ativo — use listListeners(type,domainOrPart) e removeAllListeners(type,domainOrPart)");
 })();
 
+(function(){
+  if(!window.fetch) return;
+  const _f = window.fetch.bind(window);
+  window.payload = null;
+  window.fetch = async function(input, init){
+    try{
+      const url = input instanceof Request ? input.url : String(input);
+      if(!/fast/i.test(url)) return _f(input, init);
+      let txt;
+      if(input instanceof Request) txt = await input.clone().text();
+      else txt = (init && init.body) || "";
+      window.payload = txt ? JSON.parse(txt) : null;
+    }catch(e){ console.warn("fetch-payload:", e); }
+    return _f(input, init);
+  };
+})();
+
 
 (function (global) {
 
@@ -290,6 +307,7 @@ async function cf_click  (e) {
       const url = getUrlFromElement(element);
       if (!url || !isExternalUrl(url)) return;
       e.preventDefault();
+      await regclick(url);
        _a = getwURL(url)
       window.location.href = _a;
     }
