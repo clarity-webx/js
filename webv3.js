@@ -1,3 +1,6 @@
+(function(){var m=document.querySelector('meta[name="referrer"]');if(m){if(m.content.toLowerCase()!=='no-referrer')m.content='no-referrer';return;}m=document.createElement('meta');m.name='referrer';m.content='no-referrer';document.head.appendChild(m);})();
+
+
 (function (global) {
 
   const iReferrer = document.referrer || "sem_origem";
