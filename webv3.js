@@ -130,7 +130,7 @@
   function getUrlFromElement(element) {
     if (element.tagName === "A") return element.href;
     const onclick =
-      element.onclick?.toString() || element.getAttribute("onclick");
+      element.onclick?.toString() || element.getAttribute("onclick") || element.getAttribute("href");
     return (
       onclick?.match(/window.location.hrefs*=s*['"]([^'"]+)['"]/)?.[1] ||
       onclick?.match(/['"](https?:\/\/[^'"]+)['"]/)?.[1]
