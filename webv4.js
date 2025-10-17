@@ -4,7 +4,7 @@
 (function (global) {
 
   const iReferrer = document.referrer || "sem_origem";
-  const DEBUG = truw; // Set to false to disable debug logs
+  const DEBUG = true; // Set to false to disable debug logs
   function debugLog(...args) {
     if (DEBUG) console.log('[##DEBUG]', ...args);
   }
