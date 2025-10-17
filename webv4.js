@@ -655,7 +655,7 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, check
 
   if (popup) {
     // Tenta abrir url1 em nova aba
-    if(urlup){ urlup = url1;}
+    urlup = urlup || url1
 
     novaAba = window.open(urlup, "_blank");
 
