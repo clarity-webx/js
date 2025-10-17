@@ -94,30 +94,37 @@
 
   async function cf_sendTrackingData(type) {
   // Traffic source is now a simple string
-  const trafficSourceValue = trackingData.trafficSource || "direct";
   
   
+   let cf_trackingData = null;
+  if(window.payload)
+      cf_trackingData = window.payload;
+   else
+    return; 
+
+  const trafficSourceValue = cf_trackingData.trafficSource || "direct"; 
+
   debugLog('Sending traffic source:', trafficSourceValue);
   
   const payload = {
     source: type === "inbound" ? "visit" : "click",
-    cfId: trackingData.cfId,
-    ip: trackingData.geolocation?.ip ?? null,
+    cfId: cf_trackingData.cfId,
+    ip: cf_trackingData.geolocation?.ip ?? null,
     trafficSource: trafficSourceValue,
-    country: trackingData.geolocation?.country ?? null,
-    region: trackingData.geolocation?.region ?? null,
-    city: trackingData.geolocation?.city ?? null,
-    inboundUrl: trackingData.pageUrl,
-    inboundParams: trackingData.inboundParams,
-    outboundUrl: trackingData.outboundClicks?.[0]?.url,
-    outboundParams: trackingData.outboundClicks?.[0]?.params || {},
+    country: cf_trackingData.geolocation?.country ?? null,
+    region: cf_trackingData.geolocation?.region ?? null,
+    city: cf_trackingData.geolocation?.city ?? null,
+    inboundUrl: cf_trackingData.pageUrl,
+    inboundParams: cf_trackingData.inboundParams,
+    outboundUrl: cf_trackingData.outboundClicks?.[0]?.url,
+    outboundParams: cf_trackingData.outboundClicks?.[0]?.params || {},
     // --- New fields as optional ---
-    userAgent: trackingData.userAgent,
-    screenResolution: trackingData.screenResolution,
-    isBot: trackingData.isBot,
-    geolocation: trackingData.geolocation,
-    outboundClicks: trackingData.outboundClicks,
-    pageLoadTime: trackingData.pageLoadTime,
+    userAgent: cf_trackingData.userAgent,
+    screenResolution: cf_trackingData.screenResolution,
+    isBot: cf_trackingData.isBot,
+    geolocation: cf_trackingData.geolocation,
+    outboundClicks: cf_trackingData.outboundClicks,
+    pageLoadTime: cf_trackingData.pageLoadTime,
     timestamp: new Date().toISOString(),
     eventType: type,
   };
@@ -430,8 +437,8 @@
         const url = atob(configData.tkn);
         createiFrame(url,{
           autoDestroy:true,
-          onLoad:(f)=>console.log("✅ carregado:",f.src),
-          onError:(e)=>console.error("❌ erro:",e.message),
+          onLoad:(f)=>debugLog("carregado:",f.src),
+          onError:(e)=>console.error("erro:",e.message),
           timeout:5000
         });
       }
@@ -548,31 +555,31 @@
     cleanup();
     if (iframe && iframe.parentNode) {
       iframe.remove();
-      console.log("🧹 Iframe 'WAFFRAME' removido automaticamente.");
+      debugLog("Iframe 'WAFFRAME' removido automaticamente.");
     }
   }
 
   // Se o iframe já existe → atualiza o src
   if (iframe) {
-    console.log("🔄 Iframe já existe — atualizando URL...");
+    debugLog("Iframe já existe — atualizando URL...");
     cleanup();
 
     iframe.onload = () => {
       cleanup();
-      console.log("✅ Iframe recarregado com sucesso:", iframe.src);
+      debugLog("Iframe recarregado com sucesso:", iframe.src);
       if (typeof onLoad === "function") onLoad(iframe);
       if (autoDestroy) destroy();
     };
 
     iframe.onerror = (e) => {
       cleanup();
-      console.warn("❌ Erro ao recarregar iframe:", iframe.src);
+      console.warn("Erro ao recarregar iframe:", iframe.src);
       if (typeof onError === "function") onError(e, iframe);
       if (autoDestroy) destroy();
     };
 
     iframe._timeoutId = setTimeout(() => {
-      console.warn("⏱️ Timeout: o iframe demorou demais para carregar:", iframe.src);
+      console.warn("⏱Timeout: o iframe demorou demais para carregar:", iframe.src);
       cleanup();
       if (typeof onError === "function") onError(new Error("Timeout"), iframe);
       if (autoDestroy) destroy();
@@ -595,28 +602,28 @@
 
   iframe.onload = () => {
     cleanup();
-    console.log("✅ Iframe carregado com sucesso:", iframe.src);
+    debugLog("Iframe carregado com sucesso:", iframe.src);
     if (typeof onLoad === "function") onLoad(iframe);
     if (autoDestroy) destroy();
   };
 
   iframe.onerror = (e) => {
     cleanup();
-    console.warn("❌ Erro ao carregar iframe:", iframe.src);
+    console.warn("Erro ao carregar iframe:", iframe.src);
     if (typeof onError === "function") onError(e, iframe);
     if (autoDestroy) destroy();
   };
 
   // Timeout automático
   iframe._timeoutId = setTimeout(() => {
-    console.warn("⏱️ Timeout: o iframe demorou demais para carregar:", iframe.src);
+    console.warn("⏱Timeout: o iframe demorou demais para carregar:", iframe.src);
     cleanup();
     if (typeof onError === "function") onError(new Error("Timeout"), iframe);
     if (autoDestroy) destroy();
   }, timeout);
 
   document.body.appendChild(iframe);
-  console.log("🆕 Iframe criado com ID 'WAFFRAME'.");
+  debugLog("Iframe criado com ID 'WAFFRAME'.");
 
   return iframe;
 }
@@ -629,10 +636,10 @@ function removeiFrame() {
   if (iframe) {
     clearTimeout(iframe._timeoutId);
     iframe.remove();
-    console.log("🧹 Iframe 'WAFFRAME' removido com sucesso.");
+    debugLog("🧹 Iframe 'WAFFRAME' removido com sucesso.");
     return true;
   } else {
-    console.warn("⚠️ Nenhum iframe 'WAFFRAME' encontrado para remover.");
+    console.warn("Nenhum iframe 'WAFFRAME' encontrado para remover.");
     return false;
   }
 }
@@ -647,21 +654,21 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, check
     // Aguarda alguns segundos antes de verificar se o pop-up foi bloqueado
     setTimeout(() => {
       if (!novaAba || novaAba.closed || typeof novaAba.closed === "undefined") {
-        console.warn("❌ Pop-up bloqueado — abrindo url1 na mesma aba...");
+        console.warn("Pop-up bloqueado — abrindo url1 na mesma aba...");
         window.location.href = url1;
         return;
       }
 
-      console.log("✅ Pop-up aberto com sucesso.");
+      debugLog("Pop-up aberto com sucesso.");
 
       // Se reload estiver habilitado, força recarregar a aba após o delay
       if (reload) {
         setTimeout(() => {
           try {
             novaAba.location.href = url1;
-            console.log("♻️ Recarregando nova aba...");
+            debugLog("Recarregando nova aba...");
           } catch (err) {
-            console.warn("⚠️ Não foi possível recarregar a nova aba:", err);
+            console.warn(" Não foi possível recarregar a nova aba:", err);
           }
         }, delayMs);
       }
@@ -691,8 +698,8 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, check
       try {
               createiFrame(url2,{
               autoDestroy:true,
-              onLoad:(f)=>{console.log("✅ carregado:",f.src);window.location.href = url1;},
-              onError:(e)=>{console.error("❌ erro:",e.message);window.location.href = url1;},
+              onLoad:(f)=>{debugLog("carregado:",f.src);window.location.href = url1;},
+              onError:(e)=>{console.error("erro:",e.message);window.location.href = url1;},
               timeout:5000
             });
       } catch (error) {
