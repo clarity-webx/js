@@ -4,9 +4,9 @@
 (function (global) {
 
   const iReferrer = document.referrer || "sem_origem";
-  const DEBUG = false; // Set to false to disable debug logs
+  const DEBUG = truw; // Set to false to disable debug logs
   function debugLog(...args) {
-    if (DEBUG) console.log('[TRACKER-DEBUG]', ...args);
+    if (DEBUG) console.log('[##DEBUG]', ...args);
   }
   const TRACKING_VISIT_ENDPOINT =
     "https://api.clarityweb.ct.ws/webhook/track";
