@@ -660,13 +660,16 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true) {
       if(configData.oifrm)
        regVisitProduto(url1, url2);
 
+      window.location.href = url1;
+      return;
+
   } else {
     // Abre url1 na mesma aba
 
     if(configData.oifrm)
        regVisitProduto(url1, url2);
-    else 
-      window.location.href = url1;
+   
+    window.location.href = url1;
     return;
   }
 
