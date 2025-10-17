@@ -121,7 +121,7 @@
     timestamp: new Date().toISOString(),
     eventType: type,
   };
-  const endpoint = type === "inbound" ? "https://app.clickfastads.com.br/api/tracker/visits"; :   "https://app.clickfastads.com.br/api/tracker/clicks";
+  const endpoint = type === "inbound" ? "https://app.clickfastads.com.br/api/tracker/visits" :   "https://app.clickfastads.com.br/api/tracker/clicks";
   try {
     const response = await fetch(endpoint, {
       method: "POST",
