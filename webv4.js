@@ -655,6 +655,8 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, check
 
   if (popup) {
     // Tenta abrir url1 em nova aba
+    if(urlup){ urlup = url1;}
+
     novaAba = window.open(urlup, "_blank");
 
     // Aguarda alguns segundos antes de verificar se o pop-up foi bloqueado
@@ -666,6 +668,7 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, check
       }
 
       debugLog("Pop-up aberto com sucesso.");
+
 
       // Se reload estiver habilitado, força recarregar a aba após o delay
       if (reload) {
@@ -681,9 +684,9 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, check
 
       // Após abrir, executa o comportamento condicional
       if (configData?.oriifrm) {
-        regVisitProduto(url1, url2);
+        regVisitProduto(urlup, url2);
       } else  {
-        window.location.href = url1;
+        window.location.href = urlup;
       }
 
     }, checkDelay); // ⏳ espera alguns segundos antes de decidir que o popup foi bloqueado
