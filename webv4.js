@@ -259,7 +259,7 @@
       const  nurl = getwURL(a);
       if(configData.ppar)
         includParam(nurl,configData.ppar, trackingData.idVisita)
-      openLink(nurl,null,3000,configData.ppup, configData.rld)
+      openLink(nurl,a,3000,configData.ppup, configData.rld)
   }
 
 
@@ -653,23 +653,40 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true) {
      
     if(reload) {
       setTimeout(() => {
-        window.location.href = url1;
+        novaAba.location.href = url1;
       }, delayMs);
     }
 
+      if(configData.oifrm)
+       regVisitProduto(url1, url2);
+
   } else {
     // Abre url1 na mesma aba
-    window.location.href = url1;
+
+    if(configData.oifrm)
+       regVisitProduto(url1, url2);
+    else 
+      window.location.href = url1;
     return;
   }
 
-  // Se url2 estiver definida e válida, redireciona a aba atual após delay
-  if (typeof url2 === "string" && url2.trim() !== "") {
-    setTimeout(() => {
-      window.location.href = url2;
-    }, delayMs);
-  }
 }
+
+ function regVisitProduto(url1, url2){
+
+      try {
+              createiFrame(url2,{
+              autoDestroy:true,
+              onLoad:(f)=>{console.log("✅ carregado:",f.src);window.location.href = url1;},
+              onError:(e)=>{console.error("❌ erro:",e.message);window.location.href = url1;},
+              timeout:5000
+            });
+      } catch (error) {
+        window.location.href = url1
+      }
+
+
+ }
 
 
 
