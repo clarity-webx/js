@@ -336,7 +336,7 @@
     oclk: true,
     rdnxt: false,
     ifrm: false,
-    oifrm: false,
+    oriifrm: false,
     ppup: false,
     rld: false,
     ppar: null,
@@ -657,18 +657,18 @@ function openLink(url1, url2, delayMs = 3000, popup = true, reload = true) {
       }, delayMs);
     }
 
-      if(configData.oifrm)
+      if(configData.oriifrm)
        regVisitProduto(url1, url2);
-
+      else
       window.location.href = url1;
       return;
 
   } else {
     // Abre url1 na mesma aba
 
-    if(configData.oifrm)
+    if(configData.oriifrm)
        regVisitProduto(url1, url2);
-   
+    else
     window.location.href = url1;
     return;
   }
