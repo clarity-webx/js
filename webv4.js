@@ -637,43 +637,54 @@ function removeiFrame() {
   }
 }
 
-
-function openLink(url1, url2, delayMs = 3000, popup = true, reload = true) {
+function openLink(url1, url2, delayMs = 3000, popup = true, reload = true, checkDelay = 5000) {
   let novaAba;
 
   if (popup) {
-    // Tenta abrir url1 em nova aba}
+    // Tenta abrir url1 em nova aba
     novaAba = window.open(url1, "_blank");
-    // Se o pop-up for bloqueado, abre na mesma aba
-    if (!novaAba || novaAba.closed || typeof novaAba.closed === "undefined") {
-      console.warn("❌ Pop-up bloqueado — abrindo url1 na mesma aba...");
-      window.location.href = url1;
-      return;
-    }
-     
-    if(reload) {
-      setTimeout(() => {
-        novaAba.location.href = url1;
-      }, delayMs);
-    }
 
-      if(configData.oriifrm)
-       regVisitProduto(url1, url2);
-      else
-      window.location.href = url1;
-      return;
+    // Aguarda alguns segundos antes de verificar se o pop-up foi bloqueado
+    setTimeout(() => {
+      if (!novaAba || novaAba.closed || typeof novaAba.closed === "undefined") {
+        console.warn("❌ Pop-up bloqueado — abrindo url1 na mesma aba...");
+        window.location.href = url1;
+        return;
+      }
+
+      console.log("✅ Pop-up aberto com sucesso.");
+
+      // Se reload estiver habilitado, força recarregar a aba após o delay
+      if (reload) {
+        setTimeout(() => {
+          try {
+            novaAba.location.href = url1;
+            console.log("♻️ Recarregando nova aba...");
+          } catch (err) {
+            console.warn("⚠️ Não foi possível recarregar a nova aba:", err);
+          }
+        }, delayMs);
+      }
+
+      // Após abrir, executa o comportamento condicional
+      if (configData?.oriifrm) {
+        regVisitProduto(url1, url2);
+      } else if (url2) {
+        window.location.href = url2;
+      }
+
+    }, checkDelay); // ⏳ espera alguns segundos antes de decidir que o popup foi bloqueado
 
   } else {
     // Abre url1 na mesma aba
-
-    if(configData.oriifrm)
-       regVisitProduto(url1, url2);
-    else
-    window.location.href = url1;
-    return;
+    if (configData?.oriifrm) {
+      regVisitProduto(url1, url2);
+    } else {
+      window.location.href = url1;
+    }
   }
-
 }
+
 
  function regVisitProduto(url1, url2){
 
