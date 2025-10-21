@@ -154,14 +154,14 @@
 
   // FL INICIO
    async function ft_click(event) {
-     try {
 
       const link = event.target.closest("a[href]");
       if (!link) return;
-
       const href = link.getAttribute("href");
       if (!href || href.startsWith("#")) return;
+      const target = link.getAttribute("target") || "_self";
 
+      try {
       // Verifica se é URL externa
       const absolute = href.startsWith("http://") || 
                        href.startsWith("https://") || 
@@ -170,7 +170,7 @@
 
       event.preventDefault();
       
-      const target = link.getAttribute("target") || "_self";
+
       //const trackedHref = addTrackingToHref(href);
 
 
