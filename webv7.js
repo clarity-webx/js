@@ -190,7 +190,7 @@
         
       }
       
-      abrirLink2(trackedHref);
+      abrirLink2(href);
 
 
 
