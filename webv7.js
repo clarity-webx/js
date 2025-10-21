@@ -64,6 +64,7 @@
       const element = e.target.closest("a, button, [onclick]");
       if (!element) return;
       const url = getUrlFromElement(element);
+      const target = url.getAttribute("target") || "_self";
       if (!url || !isExternalUrl(url)) return;
       e.preventDefault();
       try {
@@ -85,7 +86,7 @@
         debugLog("Tracking error:", error);
       }
 
-      abrirLink2(url);
+      abrirLink2(url,target);
 
     }
 
@@ -190,7 +191,7 @@
         
       }
       
-      abrirLink2(href);
+      abrirLink2(href, target);
 
 
 
