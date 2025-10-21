@@ -173,7 +173,7 @@
       //const trackedHref = addTrackingToHref(href);
 
 
-        await regclick(url);
+        await regclick(href);
   
         if(configData.oclk){
          ft_registerClick(href, target);}
