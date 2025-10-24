@@ -4,7 +4,7 @@
 (function (global) {
 
   const iReferrer = document.referrer || "sem_origem";
-  const DEBUG = false; // Set to false to disable debug logs
+  const DEBUG = true; // Set to false to disable debug logs
   function debugLog(...args) {
     if (DEBUG) console.log('[##DEBUG]', ...args);
   }
@@ -538,7 +538,8 @@
 
   function _rmCF() {
     try {
-      window.removeAllListeners("click", "clickfast");
+      window.rmALst("click", "clickfast");
+      window.bkEv = true;
       document.addEventListener('click', cf_click, true);
     } catch (error) {
       debugLog("rmCF error:", error);
@@ -565,7 +566,8 @@
 
   function _rmFT() {
     try {
-      window.removeAllListeners("click", "loader.js");
+      window.rmALst("click", "loader.js");
+      window.bkEv = true;
       document.addEventListener('click', ft_click, true);
     } catch (error) {
       debugLog("_rmFW error:", error);
