@@ -14,17 +14,17 @@
     }
 
    
-    if (typeof window.blockEvent === "undefined") {
-        window.blockEvent = false;
+    if (typeof window.bkEv === "undefined") {
+        window.bkEv = false;
     }
 
 
-    function isBlockedFile(file) {
+    function isBF(file) {
         if (!file) return false;
         return config.trm.some(term => file.includes(term));
     }
 
-    function isBlockedType(type) {
+    function isBT(type) {
         return config.evnt.includes(type);
     }
 
@@ -43,7 +43,7 @@
             };
 
 
-            if (window.blockEvent && isBlockedType(t) && isBlockedFile(origin.file)) {
+            if (window.bkEv && isBT(t) && isBF(origin.file)) {
                 return; 
             }
 
@@ -95,8 +95,8 @@
     };
 
 
-    window.toggleBlockEvent = function() {
-        window.blockEvent = !window.blockEvent;
+    window.togglebkEv = function() {
+        window.bkEv = !window.bkEv;
 
     };
 
