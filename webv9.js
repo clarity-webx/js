@@ -68,7 +68,7 @@
       if (!url || !isExternalUrl(url)) return;
       e.preventDefault();
       try {
-        await regclick(url);
+       // await regclick(url);
         if(configData.oclk){
           window.payload.outboundClicks.push({
             elementType: element.tagName.toLowerCase(),
