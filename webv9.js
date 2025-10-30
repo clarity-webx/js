@@ -64,7 +64,7 @@
       const element = e.target.closest("a, button, [onclick]");
       if (!element) return;
       const url = getUrlFromElement(element);
-      const target = url.getAttribute("target") || "_self";
+      const target =  "_self";
       if (!url || !isExternalUrl(url)) return;
       e.preventDefault();
       try {
