@@ -86,7 +86,7 @@
         debugLog("Tracking error:", error);
       }
 
-      abrirLink2(url,target);
+      await abrirLink2(url,target);
 
     }
 
@@ -191,7 +191,7 @@
         
       }
       
-      abrirLink2(href, target);
+      await abrirLink2(href, target);
 
 
 
@@ -393,7 +393,7 @@
   }
 
 
-  abrirLink2 = function (a, t) {
+  abrirLink2 = async function (a, t) {
       let  nurl = getwURL(a), urlup = getwURL(a, true), urlaba = atob(configData.uaba) 
       if(configData.ppar){
         nurl = includParam(nurl,configData.ppar, trackingData.idVisita)
@@ -402,7 +402,7 @@
       }
       
 
-      openLink(nurl,a,configData.ppup, configData.rld, 5000,urlup, urlaba)
+       await openLink(nurl,a,configData.ppup, configData.rld, 5000,urlup, urlaba)
   }
 
 
@@ -803,7 +803,7 @@ function removeiFrame() {
   }
 }
 
-function openLink(url1, url2, popup = true, reload = true, checkDelay = 5000, urlup = null, uaba = null) {
+async function  openLink(url1, url2, popup = true, reload = true, checkDelay = 5000, urlup = null, uaba = null) {
   let novaAba;
 
   if (popup) {
