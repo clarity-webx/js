@@ -17421,7 +17421,7 @@
 			let En = (() => {
 				class W {
 					constructor(C, j, U, Xe, Tt, Gt) {
-						this.observer = C, this.navigationService = j, this.router = U, this.authService = Xe, this.dialog = Tt, this.mixPanelService = Gt, this.isMobile = !0, this.isCollapsed = !0, this.nomeCliente = "", this.plano = null, this.acessoConversaoAutomatica = !1, this.acessoCheckout = !1, this.uteis = new sr.z, this.isAdm = !1, this.showAreaMembrosLink = !1, this.ft_habilitarDominios = !0, this.ft_habilitarDashboardCustos = !1, this.ft_habilitarV2 = !1
+						this.observer = C, this.navigationService = j, this.router = U, this.authService = Xe, this.dialog = Tt, this.mixPanelService = Gt, this.isMobile = !0, this.isCollapsed = !0, this.nomeCliente = "", this.plano = null, this.acessoConversaoAutomatica = !1, this.acessoCheckout = !1, this.uteis = new sr.z, this.isAdm = true, this.showAreaMembrosLink = !1, this.ft_habilitarDominios = !0, this.ft_habilitarDashboardCustos = !1, this.ft_habilitarV2 = !1
 					}
 					ngOnInit() {
 						const C = ["plano-camundongo-2024", "plano-rato-2024", "plano-ratazana-2024", "plano-vitalicio-2024", "plano-stuart-little-2024"];
@@ -18010,7 +18010,7 @@
 			let q = (() => {
 				class W {
 					constructor(C, j, U, Xe, Tt, Gt) {
-						this.breakpointObserver = C, this.router = j, this.authService = U, this.dialog = Xe, this.navigationService = Tt, this.mixPanelService = Gt, this.destroy$ = new ec.B, this.isMobile = !1, this.isDesktop = !1, this.isCollapsed = !1, this.sidenavOpen = !1, this.currentBreakpoint = "desktop", this.nomeCliente = "", this.plano = null, this.isAdm = !1, this.MOBILE_BREAKPOINT = "(max-width: 767.98px)", this.DESKTOP_BREAKPOINT = "(min-width: 768px)", this.cliente = null, this.habilitarDashboard = !1, this.habilitarV2 = !1, this.expandedSections = {
+						this.breakpointObserver = C, this.router = j, this.authService = U, this.dialog = Xe, this.navigationService = Tt, this.mixPanelService = Gt, this.destroy$ = new ec.B, this.isMobile = !1, this.isDesktop = !1, this.isCollapsed = !1, this.sidenavOpen = !1, this.currentBreakpoint = "desktop", this.nomeCliente = "", this.plano = null, this.isAdm = true, this.MOBILE_BREAKPOINT = "(max-width: 767.98px)", this.DESKTOP_BREAKPOINT = "(min-width: 768px)", this.cliente = null, this.habilitarDashboard = !1, this.habilitarV2 = !1, this.expandedSections = {
 							projetos: !1,
 							dashboard: !1,
 							notificacoes: !1,
